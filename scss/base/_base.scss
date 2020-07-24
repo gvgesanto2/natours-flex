@@ -1,0 +1,31 @@
+// Resetting
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// Base Styles
+html {
+  // defining what it is 1rem
+  font-size: 62.5%;
+}
+
+body {
+  padding: 3rem;
+}
+
+a {
+  text-decoration: none;
+  color: $dark-grey-color-1;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
